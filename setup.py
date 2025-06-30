@@ -8,11 +8,11 @@ package_data = {
 }
 
 setuptools.setup(
-    name="colbert-ai",
-    version="0.2.20",
-    author="Omar Khattab",
-    author_email="okhattab@stanford.edu",
-    description="Efficient and Effective Passage Search via Contextualized Late Interaction over BERT",
+    name="colbert-modern",
+    version="0.1.0",
+    author="Estin Chin",
+    author_email="estin68@gmail.com",
+    description="Updated ColBERT: Efficient and Effective Neural Retrieval",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/stanford-futuredata/ColBERT",
@@ -35,6 +35,10 @@ setuptools.setup(
         "faiss-cpu": ["faiss-cpu>=1.7.0"],
         "torch": ["torch==1.13.1"],
     },
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+    ],
     include_package_data=True,
     package_data=package_data,
 )
