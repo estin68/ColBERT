@@ -1,3 +1,15 @@
+# My Custom Fork of ColBERT
+
+This repository is a customized fork of [stanford-futuredata/ColBERT](https://github.com/stanford-futuredata/ColBERT).
+
+📦 **PyPI Publishing Note:**  
+I’ve modified the `setup.py` file to reflect myself as the author/maintainer so that I can publish this fork to PyPI under a distinct package name.  
+This fork may differ from the original in packaging metadata, distribution strategy, or dependency handling.
+
+🔄 Original License & Credit:  
+The core code and architecture remain based on the excellent work by the original ColBERT team. Please refer to their repository for upstream updates and detailed documentation.
+
+-------------------------------------------
 <p align="center">
   <img align="center" src="docs/images/colbertofficial.png" width="430px" />
 </p>
